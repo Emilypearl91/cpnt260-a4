@@ -1,0 +1,41 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex: auto;
+  align-content: center;
+}
+
+p{
+  max-width: 40ch;
+  text-align: left;
+  margin:auto;
+  padding: 2rem;
+}
+a{
+  text-decoration: none;
+}
+
+/*founder image for card*/
+img{
+  height: 10em;
+  border-radius: 50rem;
+  float: left;
+  padding:2rem;
+}
+
+/*card section*/
+.card{
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1rem;
+  
+  max-width:40ch;
+  border-radius: 1rem;
+  
+  background-image: url(/img/alexander-grey-5djh4Yb-2zI-unsplash.jpg);
+  position: relative;
+
+  }
